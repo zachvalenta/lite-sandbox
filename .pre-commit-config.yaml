@@ -1,0 +1,8 @@
+---
+- repo: local
+  hooks:
+  - id: lint
+    stages: [commit]
+    name: run lint
+    entry: make lint
+    language: system
