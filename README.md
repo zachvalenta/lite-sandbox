@@ -6,9 +6,7 @@ sandbox for SQLite
 
 1) install dependencies - `poetry install`
 
-2) set Git hooks - `make hooks`
-
-3) seed db - `make seed`
+2) seed db - `make seed`
 
 There are a few more rules in the Makefile:
 
@@ -17,7 +15,6 @@ There are a few more rules in the Makefile:
 
 🛠  UTILS
 
-hooks:      set Git hooks w/ pre-commit
 seed:       create and seed db
 lite:       connect w/ litecli
 vd:         connect w/ visidata

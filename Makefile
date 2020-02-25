@@ -4,7 +4,6 @@ help:
 	@echo
 	@echo "🛠  UTILS"
 	@echo
-	@echo "hooks:      set Git hooks w/ pre-commit"
 	@echo "seed:       create and seed db"
 	@echo "lite:       connect w/ litecli"
 	@echo "vd:         connect w/ visidata"
@@ -22,9 +21,6 @@ help:
 #
 # 🛠 UTILS
 #
-
-hooks:
-	poetry run pre-commit install -t pre-commit
 
 seed:
 	rm local.db 2> /dev/null; sqlite3 local.db < seed.sql
